@@ -5,7 +5,6 @@ License: Proprietary
 Section: base
 Maintainer: Neeraj Sharma <neeraj.sharma@alumni.iitg.ernet.in>
 Priority: optional
-Architecture: amd64
+Architecture: all
 Description: IAS v2 Integration
   Integrating bus operators.
-

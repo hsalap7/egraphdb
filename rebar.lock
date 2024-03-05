@@ -1,4 +1,4 @@
-{"1.1.0",
+{"1.2.0",
 [{<<"bear">>,
   {git,"http://github.com/boundary/bear.git",
        {ref,"119234548783af19b8ec75c879c5062676b92571"}},
@@ -31,6 +31,10 @@
  {<<"erlsom">>,
   {git,"https://github.com/willemdj/erlsom",
        {ref,"d5d33cf3d3266109afd70ba6c92756c50e2b9dbc"}},
+  0},
+ {<<"erlware">>,
+  {git,"https://github.com/erlware/erlware_commons",
+       {ref,"5de3c80cc2529bdfae7d3c7ee2373c5b2902dd60"}},
   0},
  {<<"erlware_commons">>,
   {git,"https://github.com/erlware/erlware_commons",
@@ -114,5 +118,11 @@
  {<<"goldrush">>, <<"F06E5D5F1277DA5C413E84D5A2924174182FB108DABB39D5EC548B27424CD106">>},
  {<<"otter_lib">>, <<"9EF4401013C52F581278D7BEB15AE536DC629CDAC72DFEEBAC2384069F9461FD">>},
  {<<"qdate_localtime">>, <<"5F6C3ACF10ECC5A7E2EFA3DCD2C863102B962188DBD9E086EC01D29FE029DA29">>},
- {<<"recon">>, <<"901FF78B39C754FB4D6FD72DCF0DBD398967BBD2E4D59C08D4D7AA44A73DE91D">>}]}
+ {<<"recon">>, <<"901FF78B39C754FB4D6FD72DCF0DBD398967BBD2E4D59C08D4D7AA44A73DE91D">>}]},
+{pkg_hash_ext,[
+ {<<"cf">>, <<"315E8D447D3A4B02BCDBFA397AD03BBB988A6E0AA6F44D3ADD0F4E3C3BF97672">>},
+ {<<"goldrush">>, <<"99CB4128CFFCB3227581E5D4D803D5413FA643F4EB96523F77D9E6937D994CEB">>},
+ {<<"otter_lib">>, <<"B467B2D0BE600BC374A6FEA4DBF679B60727152B39B4659AC067FC895CB4D236">>},
+ {<<"qdate_localtime">>, <<"91928E066DA6BCC745FF18B7C368347457CAF9250AD00950E9DA18E129D49EC5">>},
+ {<<"recon">>, <<"3B32DE568F129001E1CF89CC5BCFD6DBB1260FABB2CF8A3410CDC0F634EBA182">>}]}
 ].

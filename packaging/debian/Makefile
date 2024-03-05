@@ -1,7 +1,7 @@
 # Author: Neeraj Sharma <neeraj.sharma@alumni.iitg.ernet.in>
 
 VERSION ?= 0.1.0
-ARCH ?= x86_64
+ARCH ?= all
 COMPONENT ?= egraph
 MAKEFILE_PATH := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 PROD_TAR_PATH ?= $(MAKEFILE_PATH)/../../_build/prod/rel/$(COMPONENT)/$(COMPONENT)-$(VERSION).tar.gz
@@ -56,4 +56,3 @@ package-upgrade: prepare-upgrade
 clean:
 	rm -rf ./stage ./stage-upgrade
 	rm -f *.deb
-
